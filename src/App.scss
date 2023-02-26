@@ -1,0 +1,18 @@
+@import './Scss/color';
+@import './Scss/bootstrap';
+@import './Scss/Footer.scss';
+@import './Scss/link';
+@import './Scss/Header.scss';
+@import './Scss/Register.scss';
+@import './Scss/forgot.scss';
+@import './Scss/about.scss';
+
+#root{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main{
+    flex: 1 0 auto;
+}
